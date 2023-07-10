@@ -1,0 +1,36 @@
+<!-- <head>
+    <title>Text Cleansing</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <p>Kalimat yang ingin di bersihan: </p><p><input type="text" name=original_tweet /></p>
+        <p><input type="Submit" value="Process" /></p>
+    </form>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Select Option dengan Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Selamat Datang Di Cleansing Data</h2>
+      <form action="/proses" method="post">
+        <div class="form-group">
+          <label for="pilihan">Pilih Menu:</label>
+          <select class="form-control" id="pilihan" name="pilihan">
+            <option value="Input_Text">Input Text</option>
+            <option value="2">Input File</option>
+            <option value="3">Read Database</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
